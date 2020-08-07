@@ -1,5 +1,9 @@
 This repository contains - 
 * An introduction to [Decorators](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/Decorators/Decorators.ipynb)
+* Iterators & Itertools
+	* [Iterators](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/iterators%20and%20itertools/Iterators.ipynb)
+	* [Itertools](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/iterators%20and%20itertools/Itertools.ipynb) (permutations, combinations etc.)
+* Working with [JSON](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/JSON/Working%20with%20JSON.ipynb)
 * Most common graph plotting in Matplotlib/Plotly
 	* [Matplotlib](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/Matplotlib-plotly/Matplotlib.ipynb)
 	* [Plotly](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/Matplotlib-plotly/Plotly.ipynb)
