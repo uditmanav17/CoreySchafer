@@ -1,0 +1,12 @@
+ Volume in drive D is Local Disk
+ Volume Serial Number is 0E2C-E0B0
+
+ Directory of D:\Programming\Git\CoreySchafer\Subprocess
+
+09-08-2020  16:59    <DIR>          .
+09-08-2020  16:59    <DIR>          ..
+09-08-2020  16:39    <DIR>          .ipynb_checkpoints
+09-08-2020  16:59                 0 out.txt
+09-08-2020  16:58             8,084 Subprocess.ipynb
+               2 File(s)          8,084 bytes
+               3 Dir(s)  164,887,515,136 bytes free
