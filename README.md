@@ -26,6 +26,8 @@ This repository contains -
 
 * Introduction to [requests](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/Requests/Requests.ipynb)
 
+* Basics of [Sets](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/sets/sets.ipynb)
+
 * Introduction to [SQLite](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/sqlite3/SQLite.ipynb)
 
 * Working with [zip](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/zip/zips.ipynb)
