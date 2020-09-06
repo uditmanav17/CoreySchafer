@@ -8,6 +8,8 @@ This repository contains -
 
 * Working with [JSON](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/JSON/Working%20with%20JSON.ipynb)
 
+* [Logging](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/logging/logging.ipynb) module
+
 * Most common graph plotting in Matplotlib/Plotly
 	* [Matplotlib](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/Matplotlib-plotly/Matplotlib.ipynb)
 	* [Plotly](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/Matplotlib-plotly/Plotly.ipynb)
