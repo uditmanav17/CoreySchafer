@@ -17,6 +17,7 @@ This repository contains -
 * Data exploration using Pandas
 	* [Tutorial](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/Pandas/Pandas_Tutorial.ipynb)
 	* [Real Examples](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/Pandas/Pandas_Real_World_Examples.ipynb)
+	* [Pandas Plotting](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/Pandas/pandas_plotting.ipynb)
 
 * [Python OOPS](https://colab.research.google.com/github/uditmanav17/CoreySchafer/blob/master/Python%20OOPS/Python_OOP_Tutorial.ipynb)
 
