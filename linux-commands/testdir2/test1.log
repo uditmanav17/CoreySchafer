@@ -1,0 +1,9 @@
+2020-09-06 17:10:26,651:DEBUG:Div: 20 / 10 = 2.0
+2020-09-06 17:10:26,652:DEBUG:Div: 30 / 15 = 2.0
+2020-09-06 17:10:26,652:DEBUG:Div: 25 / 5.0 = 5.0
+2020-09-06 17:10:44,249:ERROR:Tried to divide by zero
+2020-09-06 17:10:44,250:ERROR:Tried to divide by zero
+Traceback (most recent call last):
+  File "<ipython-input-1-9f1da41d25a8>", line 26, in divide
+    result = a/b
+ZeroDivisionError: division by zero

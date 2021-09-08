@@ -1,0 +1,205 @@
+1 - Basic Navigation
+- current working directory
+> pwd
+
+- view files in directory
+> ls
+
+- view files in directory
+> ls -lRa
+
+- change directory
+> cd <path>
+
+- make directory
+> mkdir <directory_name>
+
+- create file
+> touch <file_name>
+
+- get help for commands
+> man <command>
+> <command> --help
+
+
+
+2 - File/directories manipulation
+- copy file
+> cp <file_name_1> <file_name_2>
+
+- moving/renaming file
+> mv <file_name_1> <file_name_2>
+
+- removing a file
+> rm <file_name>
+
+- removing a directory
+> rm -r <directory_name>
+
+- copy a directory
+> cp -r 
+
+
+
+3 - FIND command
+- get all files names/path
+> find
+
+- find directory and not files in current directory
+> find . -type d
+
+- find files and not directories
+> find . -type f
+
+- find files only in current directory
+> find . -maxdepth 1 -type f
+
+- find file with specific name (wildcards can be used)
+> find . -type f -name <file_name>
+
+- find file with specific name (case insensitive)
+> find . -type f -iname <file_name>
+
+- find files modified in last 10 mins
+> find . -type f -mmin -10
+
+- find files modified in before 10 mins
+> find . -type f -mmin +10
+
+- find files modified in between 10 mins - 20 mins
+> find . -type f -mmin +10 -mmin -20
+
+- find files modified in last 10 days ago
+> find . -type f -mtime -10
+
+- can use amin and atime for access time (above once are modified) and cmin and ctime for create time
+
+- find files over specific size (5MB) (k for KB, G for GB)
+> find . -size +5M
+
+- find files that are empty
+> find . -empty
+
+- search based on permissions
+> find . -perm 755
+
+- find all files in current directory and list their long format 
+(
+    -exec: execute the command on results of find
+    {}: placeholder for files returned by find
+    +: line terminator
+)
+> find . -maxdepth 1 -type f -exec ls -l {} +
+
+- WATCH FROM 9:42
+
+
+
+4 - GREP (global regular expression print) command
+- search for a word in file
+> grep <word> <file_name>
+> grep "WATCH" linux-commands-notes.txt
+
+- search for complete word in file (use -i for case insensitive)
+> grep -w <word> <file_name>
+> grep -w "WATCH" linux-commands-notes.txt
+
+- search for a word in file (with line numbers)
+> grep -n <word> <file_name>
+> grep -n "WATCH" linux-commands-notes.txt
+
+- search for a word in file (with some surrounding lines)
+> grep -B <lines before match> <word> <file_name>
+> grep -A <lines after match> <word> <file_name>
+> grep -C <lines before and after match> <word> <file_name>
+> grep -win -B 2 -A 1 "WATCH" linux-commands-notes.txt
+> grep -win -C 2 "WATCH" linux-commands-notes.txt
+
+- search in multiple files
+> grep -wn "John Smith" testdir1/*
+
+- recursive search for searching in all files in sub-directories
+> grep -wnr "John Smith" .
+
+- recursive search for searching in all files in sub-directories (returning file names only)
+> grep -wrl "John Smith" .
+
+- recursive search for searching in all files in sub-directories (returning file names only with match count)
+> grep -wrc "John Smith" .
+
+- use PERL compatible regex using -P parameter (default is POSIX)
+> grep -Pwr "D\w{3}G" .
+
+
+5 - CURL command (build API endpoints for testing)
+- fetch webpage content
+> curl <url>
+
+- fetch webpage content (with headers)
+> curl -i <url>
+
+- post request to url
+> curl -d "<data>" <url>
+> curl -d "first=udit&last=manav" <url>
+
+- put request to url
+> curl -X PUT -d "<data>" <url>
+> curl -X PUT -d "first=udit&last=human" <url>
+
+
+6 - RSYNC command
+
+
+7 - CRONTAB
+# ┌───────────── minute (0 - 59)
+# │ ┌───────────── hour (0 - 23)
+# │ │ ┌───────────── day of month (1 - 31)
+# │ │ │ ┌───────────── month (1 - 12)
+# │ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday;
+# │ │ │ │ │                                       7 is also Sunday on some systems)
+# │ │ │ │ │
+# │ │ │ │ │
+# * * * * *  command_to_execute
+
+- ###### Sample crontab ######
+
+- Empty temp folder every Friday at 5pm
+0 5 * * 5 rm -rf /tmp/*
+
+- Backup images to Google Drive every night at midnight
+0 0 * * * rsync -a ~/Pictures/ ~/Google\ Drive/Pictures/
+
+
+
+8 - Customising terminal
+- check dotfiles -> https://dotfiles.github.io/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ADDITIONAL DATA (only here for commands example)
+- WATCHING 
+- watch
+
